@@ -16,7 +16,7 @@ footer {
 	bottom: 0; 
 	left: 0; 
 	height: 75px; 
-	background-color: #333;
+	background-color: #555;
 }
 
 
@@ -24,124 +24,6 @@ a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
 	color: rgba(50, 50, 50, 0.9);
-}
-
-/* Project page */
-.roundFrame 
-{
-	border-radius: 25px;
-	width: 300px;
-	height: 200px;
-	background-image: url("300x200.png");
-	border: 1px solid #ddd;
-	position: relative;
-	margin-top: 20px;
-	margin-left : 10px;
-	margin-right: 10px;
-}
-
-.placeHolder 
-{
-	width: 300px;
-	height: 200px;
-	margin-top: 20px;
-	margin-left : 10px;
-	margin-right: 10px;
-}
-
-.roundFrame:hover 
-{
-    box-shadow: 0 0 2px 1px rgba(50, 50, 50, 0.5);
-}
-
-.projectFrameTitle
-{
-	background-color: rgba(300, 300, 300, 0.75);
-	border-radius: 23px 0 5px 5px; /*top-left top-right bottom-right bottom-left*/
-	max-width: 65%;
-	text-align: center;
-	/*Typo*/
-	font-size: 22px;
-	color: rgba(50, 50, 50, 0.9);
-	/*font-variant: small-caps;*/
-	font-family: 'Dosis', sans-serif;
-	border-bottom: 1px solid #ddd;
-	border-right: 1px solid #ddd;
-	text-decoration: none;
-}
-
-.projectSoftware
-{
-	/*float: right;*/
-	width:55px;
-	position:absolute;
-    top:7px;
-    right:7px;
-}
-
-.flexSection
-{
-	display: flex; 
-	margin-top: -20px;
-	margin-left: auto; 
-	margin-right: auto; 
-	width: 1000px; 
-	flex-wrap: wrap;
-	justify-content: center;
-}
-.yearContainer
-{ 
-	margin-left: auto; 
-	margin-right: auto; 
-	width: 1000px; 
-	padding: 0 10px 20px 10px; /*top right bottom left*/
-	background-color: rgba(300, 300, 300, 0.75);
-	border-radius: 15px;
-}
-
-.yearTypo
-{
-	display: block; 
-	font-family: 'Dosis', sans-serif; 
-	font-weight: 200; 
-	border-bottom: 1px solid #999; 
-	font-size: 40px; 
-	color: #555;
-	border-radius: 0 0 0 25px;
-	padding-left: 25px;
-	
-}
-
-/* Prototype page */
-.prototypeContainer
-{ 
-	margin-left: auto; 
-	margin-right: auto;
-	border: 1px solid #ddd;	
-	width: 850px; 
-	/*height: 500px;*/
-	padding: 0 10px 20px 10px; /*top right bottom left*/
-	background-color: rgba(300, 300, 300, 0.75);
-	border-radius: 15px;
-}
-
-.prototypeTitle
-{
-	background-color: rgba(200, 200, 200, 1);
-	border: 1px solid #ddd;
-	border-radius: 10px; /*top-left top-right bottom-right bottom-left*/
-	max-width: 40%;
-	text-align: center;
-	/*Typo*/
-	font-size: 40px;
-	color: rgba(50, 50, 50, 0.9);
-	font-variant: small-caps;
-	font-family: 'Dosis', sans-serif;
-	font-weight: 200;
-	text-decoration: none;
-	margin-top: -20px;
-	margin-left: auto; 
-	margin-right: auto; 
 }
 
 p {
@@ -182,46 +64,40 @@ h3 {
 	width: 90%;
 }
 
-.prototypeID
-{
-	border-left: 1px solid #aaa; 
-	border-bottom: 1px solid #aaa; 
-	width: 300px; 
-	height: 300px; 
-	margin-left: 20px; 
-	border-radius: 15px;
-	padding: 20px;
-	padding-top: 10px;
-	padding-bottom: 30px;
+/*Header///////////////////////////////////////////////////////////////*/
+
+.name {
+	font-family: 'Dosis', sans-serif; 
+	font-weight: 200; 
+	font-size: 45px; 
+	color: #222;
 }
 
-.prototypePlay
-{
-	/*border-left: 1px solid #aaa; 
-	border-bottom: 1px solid #aaa;  */
-	margin-left: 20px; 
-	margin-top: 10px;
-	border-radius: 15px;
-	display: flex;
-	/*Typo*/
-	font-size: 18px;
-	color: rgba(50, 50, 50, 0.9);
-	font-family: 'Dosis', sans-serif;
-	font-weight: 200;
+.surname {
+	font-family: 'Dosis', sans-serif; 
+	font-weight: 400; 
+	font-size: 55px; 
+	line-height: 20px; 
+	color: #222;
 }
 
-.prototypeConcept
-{
-	border-right: 1px solid #aaa; 
-	border-top: 1px solid #aaa; 
-	width: 550px;  
-	margin-top: 10px;
-	border-radius: 15px;
-	padding: 10px;
-	padding-top: -5px;
-	/*Typo*/
-	font-size: 20px;
-	color: rgba(50, 50, 50, 0.9);
-	font-family: 'Dosis', sans-serif;
-	font-weight: 200;
+.status {
+	display: inline-block; 
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 300; 
+	font-size: 20px; 
+	line-height: 20px; 
+	color: #222; 
+	border-top: 1px solid #555; 
+	border-radius: 10px; 
+	margin-top: 5px; 
+	padding: 5px; 
+	padding-right: 10px;
 }
+
+.nameContainer {
+	margin-left:auto; 
+	margin-left:auto; 
+	text-align: center;
+}
+.

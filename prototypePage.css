@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Prototype page///////////////////////////////////////////////////////*/
+.prototypeContainer
+{ 
+	margin-left: auto; 
+	margin-right: auto;
+	border: 1px solid #ddd;	
+	width: 850px; 
+	/*height: 500px;*/
+	padding: 0 10px 20px 10px; /*top right bottom left*/
+	background-color: rgba(300, 300, 300, 0.75);
+	border-radius: 15px;
+}
+
+.prototypeTitle
+{
+	background-color: rgba(200, 200, 200, 1);
+	border: 1px solid #ddd;
+	border-radius: 10px; /*top-left top-right bottom-right bottom-left*/
+	max-width: 40%;
+	text-align: center;
+	/*Typo*/
+	font-size: 40px;
+	color: rgba(50, 50, 50, 0.9);
+	font-variant: small-caps;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 200;
+	text-decoration: none;
+	margin-top: -20px;
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+.prototypeID
+{
+	border-left: 1px solid #aaa; 
+	border-bottom: 1px solid #aaa; 
+	width: 300px; 
+	height: 300px; 
+	margin-left: 20px; 
+	border-radius: 15px;
+	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.prototypePlay
+{
+	/*border-left: 1px solid #aaa; 
+	border-bottom: 1px solid #aaa;  */
+	margin-left: 20px; 
+	margin-top: 10px;
+	border-radius: 15px;
+	display: flex;
+	/*Typo*/
+	font-size: 18px;
+	color: rgba(50, 50, 50, 0.9);
+	font-family: 'Dosis', sans-serif;
+	font-weight: 200;
+}
+
+.prototypeConcept
+{
+	border-right: 1px solid #aaa; 
+	border-top: 1px solid #aaa; 
+	width: 550px;  
+	margin-top: 10px;
+	border-radius: 15px;
+	padding: 10px;
+	padding-top: -5px;
+	/*Typo*/
+	font-size: 20px;
+	color: rgba(50, 50, 50, 0.9);
+	font-family: 'Dosis', sans-serif;
+	font-weight: 200;
+}
