@@ -33,6 +33,12 @@
 	margin-right: auto; 
 }
 
+.prototypeImage {
+	border-radius: 10px; 
+	width: 100%; 
+	height: auto;
+}
+
 .prototypeID
 {
 	border-left: 1px solid #aaa; 

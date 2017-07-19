@@ -19,6 +19,13 @@ footer {
 	background-color: #555;
 }
 
+nav {
+	display: flex; 
+	justify-content: center; 
+	margin: 20px;
+	margin-bottom: 50px;
+}
+
 
 a:hover, a:visited, a:link, a:active
 {
@@ -100,4 +107,99 @@ h3 {
 	margin-left:auto; 
 	text-align: center;
 }
-.
+
+/*Navigation////////////////////////////////*/
+.navLeft {
+	width: 200px;
+	/*background-color: rgba(200, 200, 200, 1);*/
+	border: 1px solid #ddd;
+	border-radius: 10px 25px 10px 10px; /*top-left top-right bottom-right bottom-left*/
+	text-align: center;
+	margin-right: 10px;
+	/*Typo*/
+	font-size: 40px;
+	color: rgba(50, 50, 50, 0.9);
+	/*font-variant: small-caps;*/
+	font-family: 'Dosis', sans-serif;
+	font-weight: 200;
+	text-decoration: none;
+}
+
+.navRight {
+	width: 200px;
+	/*background-color: rgba(200, 200, 200, 1);*/
+	border: 1px solid #ddd;
+	border-radius: 25px 10px 10px 10px; /*top-left top-right bottom-right bottom-left*/
+	text-align: center;
+	margin-left: 10px;
+	/*Typo*/
+	font-size: 40px;
+	color: rgba(50, 50, 50, 0.9);
+	/*font-variant: small-caps;*/
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.navLeft:hover {
+	background-color: rgba(300, 300, 300, 0.75);
+}
+
+.onPrototype:hover {
+	background-color: rgba(300, 300, 300, 0.75);
+}
+
+.navRight:hover {
+	background-color: rgba(300, 300, 300, 0.75);
+}
+
+.onPortfolio {
+	width: 200px;
+	/*background-color: rgba(200, 200, 200, 1);*/
+	border: 1px solid #ddd;
+	border-radius: 10px 25px 10px 10px; /*top-left top-right bottom-right bottom-left*/
+	text-align: center;
+	margin-right: 10px;
+	/*Typo*/
+	font-size: 40px;
+	color: rgba(50, 50, 50, 0.9);
+	/*font-variant: small-caps;*/
+	font-family: 'Dosis', sans-serif;
+	font-weight: 200;
+	text-decoration: none;
+	background-color: rgba(300, 300, 300, 0.75);
+}
+
+.onMe {
+	width: 200px;
+	/*background-color: rgba(200, 200, 200, 1);*/
+	border: 1px solid #ddd;
+	border-radius: 25px 10px 10px 10px; /*top-left top-right bottom-right bottom-left*/
+	text-align: center;
+	margin-left: 10px;
+	/*Typo*/
+	font-size: 40px;
+	color: rgba(50, 50, 50, 0.9);
+	/*font-variant: small-caps;*/
+	font-family: 'Dosis', sans-serif;
+	font-weight: 200;
+	text-decoration: none;
+	background-color: rgba(300, 300, 300, 0.75);
+}
+
+.onPrototype {
+	width: 200px;
+	/*background-color: rgba(200, 200, 200, 1);*/
+	border: 1px solid #ddd;
+	border-radius: 10px 25px 10px 10px; /*top-left top-right bottom-right bottom-left*/
+	text-align: center;
+	margin-right: 10px;
+	/*Typo*/
+	font-size: 40px;
+	color: rgba(50, 50, 50, 0.9);
+	/*font-variant: small-caps;*/
+	font-family: 'Dosis', sans-serif;
+	font-weight: 200;
+	text-decoration: none;
+	background-color: rgba(300, 300, 300, 0.25);
+}
