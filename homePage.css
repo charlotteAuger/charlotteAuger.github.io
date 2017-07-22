@@ -13,9 +13,6 @@
 	margin-top: 20px;
 	margin-left : 10px;
 	margin-right: 10px;
-	
-	position: relative;
-    overflow: hidden;
 }
 
 .placeHolder 
@@ -36,7 +33,7 @@
 {
 	background-color: rgba(300, 300, 300, 0.75);
 	border-radius: 23px 0 5px 5px; /*top-left top-right bottom-right bottom-left*/
-	width: 65%;
+	max-width: 65%;
 	text-align: center;
 	/*Typo*/
 	font-size: 22px;
@@ -46,8 +43,6 @@
 	border-bottom: 1px solid #ddd;
 	border-right: 1px solid #ddd;
 	text-decoration: none;
-	position: absolute;
-	z-index: 10;
 }
 
 .projectSoftware
@@ -90,26 +85,4 @@
 	border-radius: 0 0 0 25px;
 	padding-left: 25px;
 	
-}
-
-
-.roundFrame:hover .hidden{
-
-    bottom: 0px;
-}
-
-.roundFrame .hidden {    
-    background: rgba(200,200,200, 0.9);
-	margin-left: auto;
-	margin-right: auto;
-    height: 200px;    
-    position: absolute; 
-    bottom: -200px;  
-    width: auto;
-    opacity: 1;    
-    -webkit-transition: all 0.7s ease-out;
-       -moz-transition: all 0.7s ease-out;
-        -ms-transition: all 0.7s ease-out;
-         -o-transition: all 0.7s ease-out;
-            transition: all 0.7s ease-out;
 }
