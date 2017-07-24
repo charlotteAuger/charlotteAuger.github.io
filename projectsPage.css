@@ -27,6 +27,16 @@
 	margin-right: 10px;
 }
 
+.placeHolder2 /*to keep the two columns*/
+{
+	width: 300px;
+	height: 200px;
+	margin-top: 20px;
+	margin-left : 10px;
+	margin-right: 10px;
+}
+
+
 .roundFrame:hover 
 {
     box-shadow: 0 0 2px 1px rgba(50, 50, 50, 0.5);
@@ -69,6 +79,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
 .yearContainer
 { 
 	margin-left: auto; 
@@ -112,4 +123,47 @@
         -ms-transition: all 0.7s ease-out;
          -o-transition: all 0.7s ease-out;
             transition: all 0.7s ease-out;
+}
+
+/*///////////////////////////////////////////////////////////*/
+
+@media screen and (max-width:1030px)
+{
+	.flexSection
+	{
+		width: 700px; 
+	}
+	
+	.yearContainer
+	{ 
+		width: 700px; 
+	}
+	
+	.placeHolder
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width:790px)
+{
+	.flexSection
+	{
+		width: 300px; 
+	}
+	
+	.yearContainer
+	{ 
+		width: 300px; 
+	}
+	
+	.placeHolder
+	{
+		display: none;
+	}
+	
+	.placeHolder2
+	{
+		display: none;
+	}
 }
