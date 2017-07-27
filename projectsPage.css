@@ -39,7 +39,7 @@
 
 .roundFrame:hover 
 {
-    box-shadow: 0 0 2px 1px rgba(50, 50, 50, 0.5);
+    box-shadow: 0 0 2px 1px /*rgba(50, 50, 50, 0.5);*/rgba(2, 196, 187, 0.5);
 }
 
 .projectFrameTitle
@@ -110,7 +110,7 @@
 }
 
 .roundFrame .hidden {    
-    background: rgba(200,200,200, 0.9);
+    background: /*rgba(200,200,200, 0.9);*/rgba(177, 218, 212, 0.9);
 	margin-left: auto;
 	margin-right: auto;
     height: 200px;    

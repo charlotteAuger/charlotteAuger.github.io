@@ -6,7 +6,7 @@
 	margin-right: auto; 
 	margin-top: 30px;
 	margin-bottom: 30px;
-	border: 1px solid #ddd;	
+	border: 1px solid #fff;	
 	width: 750px; 
 	/*height: 500px;*/
 	/*padding: 0 10px 20px 10px; /*top right bottom left*/
@@ -15,8 +15,8 @@
 }
 
 .intro {
-	border-right: 1px solid rgba(1, 120, 119, 1); 
-	border-bottom: 1px solid rgba(1, 120, 119, 1);
+	border-right: 1px solid #aaa; 
+	border-bottom: 1px solid #aaa; 
 	width: 650px;  
 	/*margin: 25px;
 	margin-left: auto;
