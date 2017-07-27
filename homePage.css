@@ -32,3 +32,25 @@
 	font-family: 'Dosis', sans-serif;
 	font-weight: 200;
 }
+
+@media screen and (min-height: 620px)
+{
+	footer {
+		position: fixed; 
+		width: 2000px;
+	}
+}
+
+@media screen and (max-width:790px)
+{
+	.introContainer { 	
+		width: 300px; 
+
+	}
+
+	.intro {
+		width: 250px;  
+		margin: 10px auto 15px auto;
+		
+	}
+}
