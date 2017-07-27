@@ -12,23 +12,24 @@
 	padding: 0 10px 20px 10px; /*top right bottom left*/
 	background-color: rgba(300, 300, 300, 0.75);
 	border-radius: 15px;
+	border: 1px solid rgba(2, 196, 187, 1);
 }
 
 .prototypeTitle
 {
-	background-color: rgba(200, 200, 200, 1);
-	border: 1px solid #ddd;
+	background-color: white; /*rgba(200, 200, 200, 1);*/
+	border: 1px solid /*#ddd;*/ rgba(177, 218, 212, 1);
 	border-radius: 10px; /*top-left top-right bottom-right bottom-left*/
 	max-width: 40%;
 	text-align: center;
 	/*Typo*/
 	font-size: 40px;
-	color: rgba(50, 50, 50, 0.9);
+	color: /*rgba(50, 50, 50, 0.9);*/rgba(2, 159, 138, 1);
 	font-variant: small-caps;
 	font-family: 'Dosis', sans-serif;
 	font-weight: 200;
 	text-decoration: none;
-	margin-top: -20px;
+	margin-top: -25px;
 	margin-left: auto; 
 	margin-right: auto; 
 }

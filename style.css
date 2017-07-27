@@ -45,7 +45,8 @@ nav {
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
-	color: rgba(50, 50, 50, 0.9);
+	/*color: rgba(50, 50, 50, 0.9);*/
+	color: rgba(1, 133, 119, 1);
 }
 
 p {
@@ -58,21 +59,21 @@ p {
 
 h4 {
 	font-size: 30px;
-	color: rgba(50, 50, 50, 0.9);
+	color: rgba(1, 113, 99, 1);
 	font-family: 'Dosis', sans-serif;
 	font-weight: 200;
 	/*line-height: 5px;*/
 	margin-top: 5px;
 	margin-bottom: -5px;
 	text-align: center;
-	border: 1px solid #ccc;
+	border: 1px solid rgba(177, 218, 212, 1);
 	border-radius: 10px;
-	background-color:#ddd;
+	background-color:#fff;
 }
 
 h3 {
 	font-size: 15px;
-	color: rgba(50, 50, 50, 0.9);
+	color: /*rgba(50, 50, 50, 0.9);*/  rgba(1, 133, 119, 1);
 	font-family: 'Dosis', sans-serif;
 	font-weight: 200;
 	/*line-height: 5px;*/
@@ -80,9 +81,9 @@ h3 {
 	margin-top: -20px;
 	margin-bottom: -5px;
 	text-align: center;
-	border: 1px solid #ddd;
+	border: 1px solid /*#ddd;*/rgba(177, 218, 212, 1);
 	border-radius: 10px;
-	background-color:#e5e5e5;
+	background-color:/*#e5e5e5;*/white;
 	width: 90%;
 }
 
@@ -194,8 +195,9 @@ h2 {
 	font-family: 'Dosis', sans-serif;
 	font-weight: 200;
 	text-decoration: none;
-	background-color: rgba(177, 218, 212, 0.75);
+	background-color: rgba(300, 300, 300, 0.75);
 }
+
 
 .onMe {
 	width: 200px;
