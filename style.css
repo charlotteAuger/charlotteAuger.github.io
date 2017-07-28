@@ -19,7 +19,7 @@ body {
 	background-image: url('green3.png'); 
 	background-repeat: no-repeat; 
 	background-position: center top; 
-	background-color: /*rgba(207, 207, 207, 1);*/ rgba(231, 231, 231, 1);
+	background-color: /*rgba(207, 207, 207, 1);*/ rgba(233, 233, 233, 1);
 	margin: 0;
 	overflow-x: auto;
 }
