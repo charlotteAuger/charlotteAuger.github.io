@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Project page///////////////////////////////////////////////////////*/
+
+
+.flexSection
+{
+	display: flex; 
+	margin-top: 20px;
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 1000px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.aboutContainer
+{ 
+	margin-left: auto; 
+	margin-right: 5px;
+	border: 1px solid #ddd;	
+	width: 600px; 
+	height: 300px;
+	padding: 20px 20px 20px 20px; /*top right bottom left*/
+	background-color: rgba(300, 300, 300, 0.75);
+	border-radius: 15px;
+	border: 1px solid rgba(2, 196, 187, 1);
+}
+
+.aboutText {
+
+}
+
+.meImage {
+	border-radius: 10px; 
+	width: auto; 
+	height: auto;
+	/*float: left;
+	margin: 0 15px 15px 0;*/
+	margin: 20px auto 10px auto;
+	display: block;
+	
+}
+
+.aboutSkills {
+	
+}
+
+.contactContainer
+{ 
+	margin-left: 5px; 
+	margin-right: auto;
+	border: 1px solid #ddd;	
+	width: 250px; 
+	/*height: 500px;*/
+	padding: 10px 10px 20px 10px; /*top right bottom left*/
+	background-color: rgba(300, 300, 300, 0.75);
+	border-radius: 15px;
+	border: 1px solid rgba(2, 196, 187, 1);
+}
+
+.contactLine {
+	display: flex;
+	margin-bottom: -15px;
+}
+
+.contactIcon {
+	width: 35px;
+	height: 35px;
+	margin: 10px 10px 0 0;
+}
