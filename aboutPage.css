@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* Project page///////////////////////////////////////////////////////*/
+/* About me page///////////////////////////////////////////////////////*/
 
 
 .flexSection
@@ -15,13 +15,20 @@
 	justify-content: center;
 }
 
+.mep
+{
+	margin: 0; 
+	padding: 5px; 
+	text-align: justify;
+	font-size: 16px;
+}
+
 .aboutContainer
 { 
 	margin-left: auto; 
 	margin-right: 5px;
 	border: 1px solid #ddd;	
 	width: 600px; 
-	height: 300px;
 	padding: 20px 20px 20px 20px; /*top right bottom left*/
 	background-color: rgba(300, 300, 300, 0.75);
 	border-radius: 15px;
@@ -60,13 +67,59 @@
 	border: 1px solid rgba(2, 196, 187, 1);
 }
 
+.skillContainer {
+	display: flex; 
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
 .contactLine {
 	display: flex;
 	margin-bottom: -15px;
+}
+
+.skillLine {
+	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 170px;
 }
 
 .contactIcon {
 	width: 35px;
 	height: 35px;
 	margin: 10px 10px 0 0;
+}
+
+.skillIcon {
+	width: 100px;
+	height: auto;
+	margin-left: 5px;
+	
+}
+
+.cv {
+	width: 75px; 
+	height: 75px; 
+	margin: 20px; 
+	margin-top: 10px;
+}
+
+.skillCategory {
+	display: block; 
+	margin: auto; 
+	width: auto; 
+	height: 75px;
+}
+
+.skillBox {
+	width: 300px; 
+	text-align: center;
+}
+
+.skillName {
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 500;
 }

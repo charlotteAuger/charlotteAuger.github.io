@@ -33,11 +33,18 @@
 	font-weight: 200;
 }
 
-@media phone
-{
-	footer {
+footer {
 		position: fixed; 
 		width: 2000px;
+}
+	
+@media screen and (max-height: 600px)
+{
+	footer {
+		position: relative; 
+		width: 2000px;
+		bottom: 0; 
+		left: 0; 
 	}
 }
 
@@ -51,6 +58,5 @@
 	.intro {
 		width: 250px;  
 		margin: 10px auto 15px auto;
-		
 	}
 }
