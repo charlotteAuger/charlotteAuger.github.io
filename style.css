@@ -16,7 +16,7 @@ foncé vif : rgba(2, 159, 138, 1);
 
 */
 body {
-	background-image: url('green3.png'); 
+	background-image: url('images/green3.png'); 
 	background-repeat: no-repeat; 
 	background-position: center top; 
 	background-color: /*rgba(207, 207, 207, 1);*/ rgba(233, 233, 233, 1);
@@ -271,4 +271,21 @@ h2 {
 		font-size: 37px;
 		
 	}
+}
+
+/*///////////////////////////////////////* SPANS*/
+.bold {
+	font-weight: 500;
+	font-family: 'Raleway', sans-serif;
+}
+
+.bigBlue {
+	color: rgba(1, 133, 119, 1); 
+	font-weight: 500; 
+	font-size: 19px;
+}
+
+.blue {
+	color: rgba(1, 133, 119, 1); 
+	font-weight: 500; 
 }

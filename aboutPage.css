@@ -94,9 +94,10 @@
 }
 
 .skillIcon {
-	width: 100px;
-	height: auto;
+	width: auto;
+	height: 20px;
 	margin-left: 5px;
+	vertical-align: middle;
 	
 }
 
@@ -117,9 +118,4 @@
 .skillBox {
 	width: 300px; 
 	text-align: center;
-}
-
-.skillName {
-	font-family: 'Raleway', sans-serif; 
-	font-weight: 500;
 }
