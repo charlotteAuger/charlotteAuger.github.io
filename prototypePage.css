@@ -78,7 +78,7 @@
 	padding: 10px;
 	padding-top: -5px;
 	/*Typo*/
-	font-size: 20px;
+	font-size: 5px;
 	color: rgba(50, 50, 50, 0.9);
 	font-family: 'Dosis', sans-serif;
 	font-weight: 200;
@@ -120,6 +120,20 @@
 
 .flex1 {
 	margin-top: 10px; padding-left: 15px; display: flex;
+}
+
+p.seize 
+{
+	margin: 0;
+	font-size: 16px;
+}
+
+p.point 
+{
+	margin-left: 20px; 
+	margin-top :5px;
+	margin-bottom: 5px;
+	font-size: 16px;
 }
 
 /*//////*/

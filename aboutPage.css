@@ -21,6 +21,7 @@
 	padding: 5px; 
 	text-align: justify;
 	font-size: 16px;
+	/*font-weight: 400;*/
 }
 
 .aboutContainer
@@ -79,12 +80,14 @@
 }
 
 .skillLine {
-	display: flex;
+	/*display: flex;
 	justify-content: space-between;
+	width: 170px;*/
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
-	width: 170px;
+	color: rgba(20, 20, 20, 1);
+	
 }
 
 .contactIcon {
@@ -117,5 +120,6 @@
 
 .skillBox {
 	width: 300px; 
-	text-align: center;
+	text-align: left;
+	/*padding-left:5px;*/
 }

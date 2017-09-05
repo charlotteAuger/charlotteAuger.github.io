@@ -51,7 +51,7 @@ a:hover, a:visited, a:link, a:active
 
 p {
 	font-size: 17px;
-	color: rgba(50, 50, 50, 1);
+	color: rgba(20, 20, 20, 1);
 	/*font-variant: small-caps;*/
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
@@ -288,4 +288,9 @@ h2 {
 .blue {
 	color: rgba(1, 133, 119, 1); 
 	font-weight: 500; 
+}
+
+.italic {
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
 }
