@@ -33,6 +33,16 @@ footer {
 	/*background-color: #555;*/
 	background-color: rgba(34, 118, 109, 1);
 }
+	
+@media screen and (min-height: 1000px)
+{
+	footer {
+		position: fixed; 
+		width: 2000px;
+		bottom: 0; 
+		left: 0; 
+	}
+}
 
 nav {
 	display: flex; 
