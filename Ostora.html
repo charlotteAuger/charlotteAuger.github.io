@@ -35,7 +35,10 @@
 				Ostora
 			</div>
 			<div class="flex1">
-				<img class="prototypeImage" src="gif/ov2.gif"/>
+				<img class="prototypeImage" src="images/osto1.png"/>
+				<img class="prototypeImage" src="images/osto2.png"/>
+				<img class="prototypeImage" src="images/osto3.png"/>
+				<img class="prototypeImage" src="images/osto5.png"/>
 				<div class="prototypeID">
 					<h4>ID</h4>
 					<p style="font-size: 17px">
@@ -54,23 +57,18 @@
 			</div>
 			<div class="flex1">
 				<div class="prototypeConcept">
-					<p class="seize">Poseidance is a <span class="blue">two player rythm game</span>. Because of a quarrel, Poseidon challenges Mereau MacWiseau the Pirate in a <span class="blue">dance-off</span>.</br> </br>
-					The first player (Poseidon)  <span class="blue">chooses</span> a set of moves, the second player must  <span class="blue">reproduce</span> them. Of course all those moves must be done in rythm.
-					</br></br>
-					<i>Playable on keyboard but gamepads are strongly advised.</i></p>
+					<p class="seize">In Ostora, the player takes the control of <span class="blue">Adil</span>, a young man waking up in a <span class="blue">mechanical body</span> centuries after his era. 
+					</br>This <span class="blue">action/adventure</span> game demo leads the player to discover a world with <span class="blue">arabic inspirations</span> built around a <span class="blue">mystical</span> religion and the ruins of a <span class="blue">highly technological</span> past. 
+					</br>He must understand and master this technology and its mysterious <span class="blue">Energy</span> in order to discover what happened to him. </p>
+					</br>
+					<p class="seize">Developped with a team of 5 game designers and 3 game artists, this project was our first work of this scale. 
+					It features a <span class="blue">narrative area</span>, an <span class="blue">exploration zone</span>, a <span class="blue">dungeon</span>, a <span class="blue">boss</span> and <span class="blue">4 gameplay features</span>.</p>
 				</div>
 				<div class="prototypePlay">
-					<div>
+					<div class="playImage">
 						<a href="DL2.png" download>
-							<img src="pictos\DL2.png" style="width: 75px; height: 75px; margin: 22px;" />
-							<h3>Downloadable </br> version</h3>
-						</a>
-
-					</div>
-					<div>
-						<a href="globe2.png" >
-							<img src="pictos\globe2.png" style="width: 75px; height: 75px; margin: 22px;" />
-							<h3>Browser </br> version</h3>
+							<img src="pictos\gamepad.png" style="width: 100px; height: auto; margin-bottom: 15px;" />
+							<h3>Try it on !</h3>
 						</a>
 					</div>
 				</div>
@@ -84,6 +82,25 @@
 			
 		<footer style="margin-top: 20px;">
 		</footer>
+		
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("prototypeImage");
+			for (i = 0; i < x.length; i++) {
+			   x[i].style.display = "none";  
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 4000); // Change image every 2 seconds
+		}
+		</script>
     </body>
 
 </html>
+
+

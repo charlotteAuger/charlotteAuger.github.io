@@ -9,3 +9,6 @@ Global Chat by corpus delicti from the Noun Project (cht.png)
 chat by Hopkins from the Noun Project (language.png)
 Gear by Pundimon from the Noun Project (gear.pn)
 documents by Pierre Ragois from the Noun Project(CV.png)
+
+Game by Jivan from the Noun Project (play.png)
+game controller by Calvin Goodman from the Noun Project (gamepad.png)

@@ -60,12 +60,21 @@
 	margin-left: 20px; 
 	margin-top: 10px;
 	border-radius: 15px;
-	display: flex;
+	width: 220px;
+	/*display: flex;*/
 	/*Typo*/
 	font-size: 18px;
 	color: rgba(50, 50, 50, 0.9);
 	font-family: 'Dosis', sans-serif;
 	font-weight: 200;
+}
+
+.playImage
+{
+	width: 100px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: 15px;
 }
 
 .prototypeConcept
