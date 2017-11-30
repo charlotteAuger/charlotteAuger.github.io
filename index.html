@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Le Portefolio</title>
         <link rel="stylesheet" href="style.css" >
-		<link rel="stylesheet" href="homePage.css" >
+		<link rel="stylesheet" href="projectsPage.css" >
 		<link href="https://fonts.googleapis.com/css?family=Dosis:200,400" rel="stylesheet"> 
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet"> 
     </head>
@@ -15,34 +15,117 @@
 				<div class="nameContainer">
 					<span class="name">Charlotte </br></span>
 					<span class="surname">AUGER</br></span>
-					<span class="status"><i>Aspiring Technical Designer</i></span>
+					<span class="status"><i>Game Design Student</i></span>
 				</div>
 			</a>
         </header>
-        
-		<main>
-			<section class="introContainer">
-				<!--<span style="text-align: center; font-family: 'Dosis', sans-serif; font-size: 25px; color: rgba(50, 50, 50, 0.9);"> Welcome </span>-->
-				<h2>Welcome</h2>
-				<div class="intro">
-					<p style="font-size: 19px;">This is my website, I hope you will find all the informations you are looking for here :</p>
-					<p> <span style="font-size: 19px; font-weight: 500;">○ Do you want to know what I can do ? </span> You can find all of my projects in my  <span class="bigBlue">Portfolio</span>. Feel free to test some of them. </p>
-					<p><span style="font-size: 19px; font-weight: 500;">○ Or maybe would you prefer to know more <span class="bigBlue">About me</span> first ? </span>  You will find my resume and contact informations there.</p>
-				</div>
-			</section>
-		</main>
 		
-				<nav> 
-			<a href="Projects.html">
-				<div class="navLeft" style="border: 1px solid white;">Portfolio</div>
+		<nav> 
+			<a href="index.html">
+				<div class="onPortfolio">Portfolio</div>
 			</a>
 			<a href="AboutMe.html">
-				<div class="navRight" style="border: 1px solid white;">About Me</div>
+				<div class="navRight">About Me</div>
 			</a>
         </nav>
+        
+		<main style="width: 950px; margin: auto;">
+			<p class="announce">Currently looking for a <span class="blue">3 months</span> long internship for <span class="blue">June 2018</span> 
+			<br>in <span class="blue" style="font-variant: small-caps;">Technical Game Design</span> <br><br> </p>
+
+			<div class="yearContainer">
+				<h1>Projects</h1>
+				<section class="flexSection">
+					<a href="MarraKas.html">
+						<article class="roundFrame" style="background-image:url('images/marraKa.png')">
+							<div class="hidden"> 
+								<p style= "margin: 10px; margin-left: 20px; margin-top: 75px; font-size: 20px;">A mexican inspired 3D platformer. Currently in progress.</p>
+							</div>
+							
+							<div class="projectFrameTitle">
+								MarraKas - WIP
+							</div>
+							<img class="projectSoftware" src="pictos/unity.png"/>
+						</article>
+					</a>
+					
+					<a href="GoldenTeeth.html">
+						<article class="roundFrame" style="background-image:url('images/GT3.png')">
+							<div class="hidden"> 
+								<p style= "margin: 10px; margin-left: 20px; margin-top: 75px; font-size: 20px;">A 2D twin-stick shooter relying on quick dash movements.</p>
+							</div>
+						
+							<div class="projectFrameTitle">
+								Golden Teeth
+							</div>
+							<img class="projectSoftware" src="pictos/unity.png"/>
+						</article>
+					</a>
+					
+					<a href="Ostora.html">
+						<article class="roundFrame" style="background-image:url('images/ostora.png');">
+							<div class="hidden"> 
+								<p style= "margin: 10px; margin-left: 20px; margin-top: 75px; font-size: 20px;">An action/adventure game taking place in an arabian futuristic world.</p>
+							</div>
+						
+							<div class="projectFrameTitle">
+								Ostora
+							</div>
+							<img class="projectSoftware" src="pictos/gamemaker.png"/>
+						</article>
+					</a>
+					
+					<a href="DarkSector.html">
+						<article class="roundFrame" style="background-image:url('images/darkSector2.png');">
+							<div class="hidden"> 
+								<p style= "margin: 10px; margin-left: 20px; margin-top: 75px; font-size: 20px;">An exploration/survival cooperative boardgame. </p>
+							</div>
+							
+							<div class="projectFrameTitle">
+								Dark Sector
+							</div>
+							<img class="projectSoftware" src="pictos/dices.png"/>
+						</article>
+					</a>
+				  
+					<article class="placeHolder">
+					</article>
+					
+					<article class="placeHolder">
+					</article>
+					
+				</section>
+			</div>
+			<div class="yearContainer" style="margin-top: 60px;">
+				<h1>Prototypes & Jams</h1>
+				<section class="flexSection">
+					<a href="Poseidance.html">
+						<article class="roundFrame" style="background-image:url('images/pos5.png');">
+							
+							<div class="hidden"> 
+								<p style= "margin: 10px; margin-left: 20px; margin-top: 75px; font-size: 20px;">A two player rythm game made during the Global Game Jam 2017 in 48 hours.</p>
+							</div>
+							
+							<img class="projectSoftware" src="pictos/gamemaker.png"/>
+							<div class="projectFrameTitle">
+								Poseidance
+							</div>
+
+							
+						</article>
+					</a>
+					
+					<article class="placeHolder2">
+					</article>
+					
+					<article class="placeHolder">
+					</article>
+				</section>
+			</div>
+		</main>
 		
 		<footer>
-		</footer>	
+		</footer>
     </body>
 	
 

@@ -10,9 +10,9 @@
 	background-image: url("300x200.png");
 	border: 1px solid #ddd;
 	position: relative;
-	margin-top: 20px;
-	margin-left : 10px;
-	margin-right: 10px;
+	margin-top: 10px;
+	margin-left : 5px;
+	margin-right: 5px;
 	
 	position: relative;
     overflow: hidden;
@@ -22,9 +22,9 @@
 {
 	width: 300px;
 	height: 200px;
-	margin-top: 20px;
-	margin-left : 10px;
-	margin-right: 10px;
+	margin-top: 10px;
+	margin-left : 5px;
+	margin-right: 5px;
 }
 
 .placeHolder2 /*to keep the two columns*/
@@ -32,8 +32,8 @@
 	width: 300px;
 	height: 200px;
 	margin-top: 20px;
-	margin-left : 10px;
-	margin-right: 10px;
+	margin-left : 5px;
+	margin-right: 5px;
 }
 
 
@@ -75,7 +75,7 @@
 	margin-top: -20px;
 	margin-left: auto; 
 	margin-right: auto; 
-	width: 1000px; 
+	width: 950px; 
 	flex-wrap: wrap;
 	justify-content: center;
 }
@@ -84,8 +84,8 @@
 { 
 	margin-left: auto; 
 	margin-right: auto; 
-	width: 1000px; 
-	padding: 0 10px 20px 10px; /*top right bottom left*/
+	width: 950px; 
+	padding: 30px 10px 20px 10px; /*top right bottom left*/
 	background-color: rgba(300, 300, 300, 0.75);
 	border-radius: 15px;
 	border: 1px solid rgba(2, 196, 187, 1);
@@ -102,7 +102,16 @@
 	border-radius: 0 0 0 25px;
 	padding-left: 25px;
 	margin-top: 5px;
-	
+}
+
+.announce
+{
+	font-size: 25px;
+	color: rgba(30, 30, 30, 1);
+	text-align: center;
+	/*font-variant: small-caps;*/
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
 }
 
 

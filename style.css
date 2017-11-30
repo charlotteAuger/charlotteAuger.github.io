@@ -98,6 +98,22 @@ h2 {
 	text-align: center;
 }
 
+h1 {
+	background-color: white; /*rgba(200, 200, 200, 1);*/
+	border: 1px solid /*#ddd;*/ rgba(177, 218, 212, 1);
+	border-radius: 10px; /*top-left top-right bottom-right bottom-left*/
+	max-width: 360px;
+	text-align: center;
+	/*Typo*/
+	font-size: 40px;
+	color: /*rgba(50, 50, 50, 0.9);*/rgba(2, 159, 138, 1);
+	font-variant: small-caps;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	margin-top: -60px;
+	margin-left: 20px; 
+}
 /*Header///////////////////////////////////////////////////////////////*/
 
 .name {
@@ -232,7 +248,6 @@ h2 {
 	text-decoration: none;
 	background-color: rgba(300, 300, 300, 0.75);
 }
-
 /*///////////////////////////////////////////////////////////*/
 
 @media screen and (max-width:790px)
