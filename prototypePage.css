@@ -161,6 +161,21 @@ p.point
 }
 
 /*//////*/
+@media screen and (min-height: 1030px)
+{
+	footer
+	{
+		/*margin-top: 50px; */
+		position: fixed; 
+		bottom: 0px; 
+		left: 0; 
+		height: 75px; 
+		width: 2000px;
+		/*background-color: #555;*/
+		background-color: rgba(34, 118, 109, 1);
+	}
+}
+
 @media screen and (max-width:790px)
 {
 	.prototypeContainer
