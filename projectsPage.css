@@ -111,16 +111,6 @@ main
 	margin-top: 5px;
 }
 
-.announce
-{
-	font-size: 25px;
-	color: rgba(30, 30, 30, 1);
-	text-align: center;
-	/*font-variant: small-caps;*/
-	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
-}
-
 
 .roundFrame:hover .hidden{
 
