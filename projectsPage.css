@@ -3,7 +3,7 @@
 
 main
 {
-	width: 950px; 	
+	width: 1000px; 	
 	margin-left: auto; 
 	margin-right: auto;
 }
@@ -41,6 +41,8 @@ main
 	margin-top: 20px;
 	margin-left : 5px;
 	margin-right: 5px;
+	display: none;
+
 }
 
 
@@ -139,7 +141,7 @@ main
 {
 	main
 	{
-		width: 700px;
+		width: 750px;
 	}
 	
 	.flexSection
@@ -156,13 +158,24 @@ main
 	{
 		display: none;
 	}
+	
+	.placeHolder2 
+	{
+		display: block;
+	}
 }
 
 @media screen and (max-width:790px)
 {
 	main
 	{
-		width: 300px;
+		width: 350px;
+	}
+	
+	.roundFrame 
+	{
+		margin-left : auto;
+		margin-right : auto;
 	}
 	
 	.flexSection
