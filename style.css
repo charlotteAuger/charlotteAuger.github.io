@@ -140,6 +140,22 @@ h1 {
 	border: 1px solid /*#ddd;*/ rgba(177, 218, 212, 1);
 	border-radius: 10px; /*top-left top-right bottom-right bottom-left*/
 }
+
+.wil
+{
+	font-size: 25px;
+	padding-top: 5px;
+	padding-bottom : 5px;
+	/*height : 65px;*/
+	color: rgba(30, 30, 30, 1);
+	text-align: center;
+	margin-bottom: 50px;
+	/*font-variant: small-caps;*/
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	margin-left: auto;
+	margin-right: auto;
+}
 /*Header///////////////////////////////////////////////////////////////*/
 
 .name {
