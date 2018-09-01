@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WitchSaver - Charlotte Auger</title>
+        <link rel="stylesheet" href="style.css" >
+		<link rel="stylesheet" href="prototypePage.css" >
+		<link href="https://fonts.googleapis.com/css?family=Dosis:200,400" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet"> 
+    </head>
+    
+    <body>
+    	<header>
+			<a href="index.html">
+				<div class="nameContainer">
+					<span class="name">Charlotte </br></span>
+					<span class="surname">AUGER</br></span>
+					<span class="status"><i>Aspiring Game Designer</i></span>
+				</div>
+			</a>
+        </header>
+		
+		<nav> 
+			<a href="index.html">
+				<div class="onPrototype">Portfolio</div>
+			</a>
+			<a href="AboutMe.html">
+				<div class="navRight">About Me</div>
+			</a>
+        </nav>
+        
+		<main>
+		  <section class="prototypeContainer">
+			<div class="prototypeTitle">
+				WitchSaver
+			</div>
+			<div class="flex1">
+			
+				<div class="imageContainer">
+					<img class="prototypeImage" src="images/witchsavr_1.png"/>
+					<img class="prototypeImage" src="images/witchsavr_2.png"/>
+					<img class="prototypeImage" src="images/witchsavr_3.png"/>
+				</div>
+			
+				<div class="prototypeID">
+					<h4>ID</h4>
+					<p style="font-size: 17px">
+					<span style="font-size: 16px;"><i>January 2017</i></br>
+					Game Jam</span></p>
+					<p style="font-size: 17px">
+					<span style="font-weight: 500;">Duration :</span> 48h </br>
+					<span style="font-weight: 500">Tools :</span> Unity
+					</p>
+					<h4>Roles</h4>
+					<p style="font-size: 18px">
+					Programming</br>
+					Game Design
+						</p>
+				</div>
+			</div>
+			
+			<div class="prototypeTeam">
+			<p class="seize"><span class="blue">Team:</span> 
+			<a href="https://noe-laqueche.github.io/">Noé Laquèche</a>
+			<span class="bold">||</span>  <a href="https://www.artstation.com/tymus">Dorian Beaugendre</a></p>
+			</div>
+			
+			<div class="flex1">
+				<div class="prototypeConcept">
+					<p class="seize">[incoming]</p>
+					<p class="wil" style="margin: 15px 0px 10px 0px;">What I learned</p>
+					<p class="seize">[incoming]
+					</p>
+				</div>
+				<div class="prototypePlay">
+					<div class="playImage">
+						<a href="https://tymus.itch.io/witchsaver">
+							<img src="pictos/gamepad.png" style="width: 100px; height: auto; margin-bottom: 15px;" />
+							<h3>Try it on !</h3>
+						</a>
+
+					</div>
+				</div>
+			</div>
+		  </section>
+		  <div class="arrowContainer">
+					<span class="leftArrow"><!--<a href="GoldenTeeth.html"><<</a>--></span>
+					<a href="index.html"><img src="pictos/menu.png" class="centerIcon"/></a>
+					<span class="rightArrow"><a href="WarioWare.html">>></a></span>
+		  </div>
+
+        </main>
+			
+		<footer style="margin-top: 20px;">
+				<div class="footerInfo">© 2018 by Charlotte AUGER</div>
+		</footer>
+		
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("prototypeImage");
+			for (i = 0; i < x.length; i++) {
+			   x[i].style.display = "none";  
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 4000); // Change image every 2 seconds
+		}
+		</script>
+		
+    </body>
+
+</html>
