@@ -263,12 +263,16 @@ p.point
 	
 	.prototypeTeam
 	{ 
-		width: auto;  
+		width: 300px;  
 		margin-left: auto; 
 		margin-right: auto;
 	}
 	
 	.arrowContainer {
 		width: 300px; 
+	}
+	
+	p.seize{
+		font-size: 12px;
 	}
 }
