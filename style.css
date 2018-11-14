@@ -391,3 +391,8 @@ h1 {
 	font-family: 'Raleway', sans-serif;
 	font-style: italic;
 }
+
+@media screen and (max-width:640px)
+{
+	footer{display:none;}
+}
