@@ -261,6 +261,13 @@ p.point
 		margin-right: auto;
 	}
 	
+	.prototypeTeam
+	{ 
+		width: auto;  
+		margin-left: auto; 
+		margin-right: auto;
+	}
+	
 	.arrowContainer {
 		width: 300px; 
 	}
