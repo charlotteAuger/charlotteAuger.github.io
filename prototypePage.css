@@ -263,7 +263,7 @@ p.point
 	
 	.prototypeTeam
 	{ 
-		width: 300px;  
+		width: auto;  
 		margin-left: auto; 
 		margin-right: auto;
 	}
