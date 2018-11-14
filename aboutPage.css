@@ -138,11 +138,3 @@
 		background-color: rgba(34, 118, 109, 1);
 	}
 }
-
-@media screen and (max-width:790px)
-{
-	.contactContainer
-	{
-		height: 300px;
-	}
-}
