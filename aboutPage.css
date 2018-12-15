@@ -55,13 +55,22 @@
 	
 }
 
+.smallTitle
+{
+	font-size: 25px; 
+	text-align: left; 
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	color: rgba(34, 118, 109, 1)
+}
+
 .contactContainer
 { 
 	margin-left: 5px; 
 	margin-right: auto;
 	border: 1px solid #ddd;	
 	width: 250px;
-	height: 500px;
+	height: auto;
 	/*height: 500px;*/
 	padding: 10px 10px 20px 10px; /*top right bottom left*/
 	background-color: rgba(300, 300, 300, 0.75);
@@ -123,6 +132,22 @@
 	width: 250px; 
 	text-align: left;
 	/*padding-left:5px;*/
+}
+
+.resumeButton
+{
+	font-size: 18px;
+	color: rgba(100, 100, 100, 1);
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	padding: 5px;
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+	width: 150px;
+	border: 1px solid rgba(177, 218, 212, 1);
+	border-radius: 10px;
+	background-color: white;
 }
 
 @media screen and (min-height: 860px)
