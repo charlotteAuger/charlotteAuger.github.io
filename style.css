@@ -373,7 +373,11 @@ h1 {
 /*///////////////////////////////////////* SPANS*/
 .bold {
 	font-weight: 500;
-	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
+}
+
+.small {
+	font-size: 15px;
 }
 
 .bigBlue {
@@ -390,6 +394,16 @@ h1 {
 .italic {
 	font-family: 'Raleway', sans-serif;
 	font-style: italic;
+}
+
+ul.interestsList {
+	list-style-type: none;
+	list-style-position: outside;
+	font-size: 17px;
+	color: rgba(20, 20, 20, 1);
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	margin-top: 0px;
 }
 
 @media screen and (max-width:640px)
