@@ -42,6 +42,26 @@
 	
 }
 
+.protoFrameWIP
+{
+	background-color: rgba(300, 300, 300, 1);
+	border-radius: 5px 5px 5px 5px; /*top-left top-right bottom-right bottom-left*/
+	width: 25%;
+	text-align: center;
+	/*Typo*/
+	font-size: 22px;
+	color: rgba(50, 50, 50, 0.9);
+	/*font-variant: small-caps;*/
+	font-family: 'Dosis', sans-serif;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	text-decoration: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 10;
+}
+
 .prototypeImage {
 	border-radius: 10px; 
 	width: 100%; 
