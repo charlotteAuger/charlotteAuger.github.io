@@ -55,7 +55,7 @@ br
 }
 
 p {
-	font-size: 17px;
+	font-size: 16px;
 	color: rgba(20, 20, 20, 1);
 	/*font-variant: small-caps;*/
 	font-family: 'Raleway', sans-serif;
@@ -394,7 +394,7 @@ h1 {
 }
 
 .small {
-	font-size: 15px;
+	font-size: 14px;
 }
 
 .description {
@@ -430,8 +430,8 @@ ul.interestsList {
 	font-size: 17px;
 	color: rgba(20, 20, 20, 1);
 	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
-	margin-top: 0px;
+	font-weight: 400;
+	margin-top: -5px;
 }
 
 @media screen and (max-width:640px)
