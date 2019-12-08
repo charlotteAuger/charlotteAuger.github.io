@@ -72,7 +72,7 @@
 			<div class="flex1">
 				<div class="prototypeConcept">
 					<p class="seize">Icy skate is an <span class="blue">ultra casual mobile game</span> prototype we developped during an intensive week in collaboration with Voodoo.io. 
-					</br>The player controls the ice skater with one finger the point of the game is to circle around flags and penguins to <span class="blue">cut the ice under their feet</span> to gain points.
+					</br>The player controls the ice skater with one finger and the point of the game is to circle around flags and penguins to <span class="blue">cut the ice under their feet</span> to gain points.
 					</p>
 				</div>
 				
@@ -88,8 +88,11 @@
 			</div>
 			<div class="whatILearned">
 					<p class="wil" style="margin: 15px 0px 10px 0px;">My work</p>
-					<p class="seize"> For this project I learned a bit about mobile optimization and practiced <span class="blue">object pooling</span>. 
-					<span class="blue">Simulating the ice cutting</span> for a cheap cost with a Depth Mask, Render order and Layer masks for the physics was also interesting to discover.
+					<p class="seize"> As the <span class="blue">only programmer</span> on this project, I implemented the controller, mechanics and UI of the game.
+					</p><br>
+					<p class="seize"><span class="bold">Optimization for mobile :</span> The main problematics of our game in terms of optimization were linked to our <span class="blue">ice-cutting mechanic</span> and the number of objects present in each level.
+					The holes in the ice are done at a cheap cost thanks to a <span class="blue">Depth Mask and a custom rendering order</span> for our materials. 
+					I then implemented a generic <span class="blue">object pooling</span> system to manage the spawning of all the objects of the game.
 					</p>
 				</div>
 		  </section>
