@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -71,7 +71,7 @@
 					<p class="seize">As Artémidore, the player embodies a small crab in the search of his disappeared friend and parental figure : a gigantic Hermit Crab. 
 					This journey leads him inside the empty shell of his friend where he discovers a confusing <span class="blue">oniric world</span> representing his travel through <span class="blue">loss and self reconstruction</span>.</p>
 					</br><p class="seize">This <span class="blue">adventure game</span> has the particularity to feature <span class="blue">a world without up or down</span>, therefore the player can only move by <span class="blue">walking on surfaces</span>, regardless of it's orientation. They can only leave a surface for another by diving in a water current and grabbing the next surface.</p>
-					<p class="seize"></br>Artémidores other skills can be <span class="blue">unlocked and combined</span> by the player in ordre to <span class="blue">choose their favorite playstyle</span> and thus represent the self reconstruction of the protagonist. 
+					<p class="seize"></br>Artémidores other skills can be <span class="blue">unlocked and combined</span> by the player in order to <span class="blue">choose their favorite playstyle</span> and thus represent the self reconstruction of the protagonist. 
 					Examples of skills are the possibility of grabbing seaweed to hide its shell from predators or having an extensible pincer allowing to grab things further. Combining those skills grants a better access to camouflage.
 					</p>
 				</div>
@@ -90,12 +90,15 @@
 				<div class="whatILearned">
 					<p class="wil" style="margin: 15px 0px 10px 0px;">My work</p>
 					<p class="seize"><span class="bold">Player controller :</span> Our <span class="blue">3rd person controller</span> allows the player to <span class="blue">walk on any surface</span> regardless of common gravity. 
-					Therefore, I practiced a lot of 3D Mathematics to orient and move the character smoothly according to the surface's normal (averaged from several raycasts) and the camera's orientation. </p>
-					</br><p class="seize"><span class="bold">Pathfinding :</span> Our swimming enemy needed to move in 3 dimensions, using Unity's NavMesh was therefore not an option. 
-					I chose to implement the <span class="blue">A* algorithm</span> and adapted what i learned in a <a href="https://www.youtube.com/watch?v=-L-WgKMFuhE&list=PLFt_AvWsXl0cq5Umv3pMC9SPnKjfp9eGW" target="_blank">tutotrial</a> to our needs by expending it to the thrid dimension. 
-					</br>Adding a whole dimension was of course way more demanding in ressources. Thanks to the <span class="blue">heap optimization</span> showed in the tutorial it was sufficient for our demo (featuring a rather small level) but would not be functionnal in a final product.</p>
-					</br><p class="seize"><span class="bold">Finite State Machine :</span> I also worked on our enemy <span class="blue">AI</span> and learned how to build a <a href="https://unity3d.com/fr/learn/tutorials/topics/navigation/finite-state-ai-delegate-pattern" target="_blank">Finite State Machine with ScriptableObjects</a>, this method had the advantage of creating multiple states by combining actions and transitions. 
-					The AI uses the A* algorithm for navigation.</p>
+					This feature was quite a challenge and I managed to orient and move the character smoothly according to the surface's normal by averaging the normal from several raycasts and using vectorial maths to find the correct direction and rotation. </p>
+					</br><p class="seize"><span class="bold">Pathfinding :</span> Handling the navigation of our swimming enemy was a big problemtatic : since it needed to move in 3 dimensions, using Unity's NavMesh was not an option. 
+					After some research I ended up implementing the <span class="blue">A* algorithm</span> on a three dimensional grid with heap optimization. </p>
+					</br><p class="seize"><span class="bold">Enemy AI :</span> Our enemy AI displaying quite simple behaviours, implementing a <span class="blue">Finite State Machine</span> was the most suited and efficient technic.
+					I used Scriptable Objects for states transitions and actions, which had the advantage of letting us easily construct new states by combining them. The AI uses the A* algorithm for navigation.</p>
+					</br><p class="seize"><span class="bold">Game mechanics :</span> I was also in charge of developping the main game mechanics : <span class="blue">swimming in water currents</span> and grabbing seaweeds for camouflage. 
+					The water currents required the most work as I implemented a <span class="blue">transition to an alternative way of controlling the character</span> when swimming inside them.
+					Each current is a spline created from the waypoints placed by the level designer and I worked with our game	artists in order to generate meshes following that spline's shape.
+</p>
 				</div>
 			</div>
 		  </section>
