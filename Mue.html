@@ -70,7 +70,7 @@
 				<div class="prototypeConcept">
 					<p class="seize">As Artémidore, the player embodies a small crab in the search of his disappeared friend and parental figure : a gigantic Hermit Crab. 
 					This journey leads him inside the empty shell of his friend where he discovers a confusing <span class="blue">oniric world</span> representing his travel through <span class="blue">loss and self reconstruction</span>.</p>
-					</br><p class="seize">This <span class="blue">adventure game</span> has the particularity to feature <span class="blue">a world without up or down</span>, therefore the player can only move by <span class="blue">walking on surfaces</span>, regardless of it's orientation. They can only leave a surface for another by diving in a water current and grabbing the next surface.</p>
+					</br><p class="seize">This <span class="blue">adventure game</span> has the particularity to feature <span class="blue">a world without up or down direction</span>, therefore the player can only move by <span class="blue">walking on surfaces</span>, regardless of its orientation. They can only leave a surface for another by diving in a water current and grabbing the next surface.</p>
 					<p class="seize"></br>Artémidores other skills can be <span class="blue">unlocked and combined</span> by the player in order to <span class="blue">choose their favorite playstyle</span> and thus represent the self reconstruction of the protagonist. 
 					Examples of skills are the possibility of grabbing seaweed to hide its shell from predators or having an extensible pincer allowing to grab things further. Combining those skills grants a better access to camouflage.
 					</p>
@@ -94,8 +94,8 @@
 					</br><p class="seize"><span class="bold">Pathfinding :</span> Handling the navigation of our swimming enemy was a big problemtatic : since it needed to move in 3 dimensions, using Unity's NavMesh was not an option. 
 					After some research I ended up implementing the <span class="blue">A* algorithm</span> on a three dimensional grid with heap optimization. </p>
 					</br><p class="seize"><span class="bold">Enemy AI :</span> Our enemy AI having quite simple behaviours, <span class="blue">Finite State Machine</span> was the most suited and efficient technic to implement.
-					I used Scriptable Objects for states' transitions and actions, which had the advantage of letting us easily construct new states by combining them. The AI uses the A* algorithm for navigation.</p>
-					</br><p class="seize"><span class="bold">Game mechanics :</span> I was also in charge of developping the main game mechanics : <span class="blue">swimming in water currents</span> and grabbing seaweeds for camouflage. 
+					I used Scriptable Objects for state transitions and actions, which had the advantage of letting us easily construct new states by combining them. The AI uses the A* algorithm for navigation.</p>
+					</br><p class="seize"><span class="bold">Game mechanics :</span> I was also in charge of developing the main game mechanics : <span class="blue">swimming in water currents</span> and grabbing seaweed for camouflage. 
 					The water currents required the most work as I implemented a <span class="blue">transition to an alternative way of controlling the character</span> when swimming inside them.
 					Each current is a spline created from the waypoints placed by the level designer and I worked with our game	artists in order to generate meshes following that spline's shape.
 </p>
