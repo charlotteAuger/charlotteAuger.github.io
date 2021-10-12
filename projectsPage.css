@@ -99,7 +99,8 @@ main
 	font-size: 22px;
 	color: rgba(50, 50, 50, 0.9);
 	/*font-variant: small-caps;*/
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
 	border-bottom: 1px solid #ddd;
 	border-right: 1px solid #ddd;
 	text-decoration: none;
@@ -114,10 +115,11 @@ main
 	width: 25%;
 	text-align: center;
 	/*Typo*/
-	font-size: 22px;
+	font-size: 18px;
+	font-weight: 300;
 	color: rgba(50, 50, 50, 0.9);
 	/*font-variant: small-caps;*/
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	border-top: 1px solid #ddd;
 	border-left: 1px solid #ddd;
 	text-decoration: none;
@@ -161,7 +163,7 @@ main
 .yearTypo
 {
 	display: block; 
-	font-family: 'Raleway', sans-serif; 
+	font-family: 'Roboto', sans-serif; 
 	font-weight: 300; 
 	border-bottom: 1px solid #999; 
 	font-size: 40px; 
