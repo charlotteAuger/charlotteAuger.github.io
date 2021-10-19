@@ -34,6 +34,7 @@
 .imageContainer {
 	max-width: 1000px;
 	min-width: 550px;
+	min-height: 320px;
 	position : relative;
 
 	
@@ -44,6 +45,7 @@
 	width: 100%; 
 	height: auto;
 	position: absolute;
+	margin-top: 15px;
 	top: 50%; /* poussé de la moitié de hauteur du référent */
 	transform: translateY(-50%);
 }
@@ -51,7 +53,7 @@
 
 .prototypeID
 {
-	width: 300px; 
+	width: 350px; 
 	max-height: 300px; 
 	margin-left: 20px; 
 	padding: 20px;
@@ -87,8 +89,7 @@
 {
 	/*border-right: 1px solid #aaa; 
 	border-top: 1px solid #aaa; */
-	margin-top: 5px;
-	margin-left: 10px;
+	margin-top: 40px;
 	padding-top: -5px;
 	/*Typo*/
 	font-size: 5px;
@@ -129,20 +130,19 @@ p.point
 }
 
 /*//////*/
-@media screen and (min-height: 1100px)/*1030*/
+/*@media screen and (min-height: 1100px)
 {
 	footer
 	{
-		/*margin-top: 50px; */
 		position: fixed; 
 		bottom: 0px; 
 		left: 0; 
 		height: 75px; 
 		width: 2000px;
-		/*background-color: #555;*/
+		/*background-color: #555;
 		background-color: rgba(34, 118, 109, 1);
 	}
-}
+}*/
 
 @media screen and (max-width:640px)
 {
