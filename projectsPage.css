@@ -12,11 +12,11 @@ main
 /* Project page///////////////////////////////////////////////////////*/
 .roundFrame 
 {
-	border-radius: 25px;
+	border-radius: 5px;
 	width: 300px;
 	height: 200px;
 	background-image: url("300x200.png");
-	border: 1px solid #ddd;
+	border: 1px solid #bbb;
 	position: relative;
 	margin-top: 20px;
 	margin-left : 10px;
@@ -51,6 +51,8 @@ main
 	width: 260px;
 	margin: auto;
 	margin-top: -10px;
+	padding-bottom: 10px;
+
 }
 
 .projectInformations 
@@ -78,21 +80,21 @@ main
 	width: 1000px; 
 	padding: 10px; /*top right bottom left*/
 	background-color: rgba(300, 300, 300, 0.75);
-	border-radius: 15px;
-	border: 1px solid rgba(2, 196, 187, 1);
-	margin-bottom: 50px;
+	/*border-radius: 15px;
+	border: 1px solid rgba(2, 196, 187, 1);*/
+	margin-bottom: 70px;
 }
 
 
 .roundFrame:hover 
 {
-    box-shadow: 0 0 2px 1px /*rgba(50, 50, 50, 0.5);*/rgba(1, 133, 119, 0.75);
+    box-shadow: 0 0 0px 2px /*rgba(50, 50, 50, 0.5);*/rgba(1, 133, 119, 0.75);
 }
 
 .projectFrameTitle
 {
 	background-color: rgba(300, 300, 300, 0.75);
-	border-radius: 23px 0 5px 5px; /*top-left top-right bottom-right bottom-left*/
+	border-radius: 0px 0 5px 0px; /*top-left top-right bottom-right bottom-left*/
 	width: 65%;
 	text-align: center;
 	/*Typo*/
@@ -103,8 +105,9 @@ main
 	font-weight:300;
 	border-bottom: 1px solid #ddd;
 	border-right: 1px solid #ddd;
+	/*border-right: 1px solid #ddd;*/
 	text-decoration: none;
-	position: absolute;
+	/*position: absolute;*/
 	z-index: 10;
 }
 
@@ -152,12 +155,13 @@ main
 .yearContainer
 { 
 	margin-left: auto; 
-	margin-right: auto; 
+	margin-right: auto;
+	margin-top: 50px; 
 	width: 1000px; 
 	padding: 50px 10px 20px 10px; /*top right bottom left*/
 	background-color: rgba(300, 300, 300, 0.75);
-	border-radius: 15px;
-	border: 1px solid rgba(2, 196, 187, 1);
+	/*border-radius: 15px;*/
+	border-top: 2px solid rgba(2, 196, 187, 1);
 }
 
 .yearTypo

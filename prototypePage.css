@@ -6,22 +6,21 @@
 { 
 	margin-left: auto; 
 	margin-right: auto;
-	border: 1px solid #ddd;	
 	width: 800px; 
+	margin-top: 75px;
 	/*height: 500px;*/
 	padding: 0 20px 20px 10px; /*top right bottom left*/
 	background-color: rgba(300, 300, 300, 0.75);
-	border-radius: 15px;
-	border: 1px solid rgba(2, 196, 187, 1);
+	border-top: 2px solid rgba(2, 196, 187, 1);
 }
 
 .prototypeTitle
 {
-	background-color: white; /*rgba(200, 200, 200, 1);*/
-	border: 1px solid /*#ddd;*/ rgba(177, 218, 212, 1);
-	border-radius: 10px; /*top-left top-right bottom-right bottom-left*/
+	/*background-color: white; /*rgba(200, 200, 200, 1);*/
+	/*border: 1px solid /*#ddd;*/ /*rgba(177, 218, 212, 1);
+	/*border-radius: 10px; /*top-left top-right bottom-right bottom-left*/
 	max-width: /*40%;*/ 300px;
-	text-align: center;
+	text-align: left;
 	/*Typo*/
 	font-size: 35px;
 	color: /*rgba(50, 50, 50, 0.9);*/rgba(2, 159, 138, 1);
@@ -29,9 +28,7 @@
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
 	text-decoration: none;
-	margin-top: -25px;
-	margin-left: auto; 
-	margin-right: auto; 
+	margin-top: -40px; 
 }
 
 .imageContainer {
@@ -40,26 +37,6 @@
 	position : relative;
 
 	
-}
-
-.protoFrameWIP
-{
-	background-color: rgba(300, 300, 300, 1);
-	border-radius: 5px 5px 5px 5px; /*top-left top-right bottom-right bottom-left*/
-	width: 25%;
-	text-align: center;
-	/*Typo*/
-	font-size: 22px;
-	color: rgba(50, 50, 50, 0.9);
-	/*font-variant: small-caps;*/
-	font-family: 'Dosis', sans-serif;
-	border-top: 1px solid #ddd;
-	border-left: 1px solid #ddd;
-	text-decoration: none;
-	position: absolute;
-	top: 0;
-	right: 0;
-	z-index: 10;
 }
 
 .prototypeImage {
@@ -74,49 +51,17 @@
 
 .prototypeID
 {
-	border-left: 1px solid #aaa; 
-	border-bottom: 1px solid #aaa; 
 	width: 300px; 
 	max-height: 300px; 
 	margin-left: 20px; 
-	border-radius: 15px;
 	padding: 20px;
 	padding-top: 10px;
 	padding-bottom: 30px;
 }
 
-.prototypePlay
-{
-	/*border-left: 1px solid #aaa; 
-	border-bottom: 1px solid #aaa;  */
-	margin-left: 20px; 
-	margin-top: 10px;
-	border-radius: 15px;
-	min-width: 200px;
-	/*display: flex;*/
-	/*Typo*/
-	font-size: 18px;
-	color: rgba(50, 50, 50, 0.9);
-	font-family: 'Dosis', sans-serif;
-	font-weight: 200;
-}
-
-.playImage
-{
-	width: 100px; 
-	margin-left: auto; 
-	margin-right: auto; 
-	margin-top: 15px;
-}
-
 .prototypeConcept
-{
-	border-right: 1px solid #aaa; 
-	border-top: 1px solid #aaa; 
-	max-width: 550px;  
+{  
 	margin-top: 5px;
-	border-radius: 15px;
-	padding: 10px;
 	padding-top: 15px;
 	/*Typo*/
 	font-size: 5px;
@@ -130,12 +75,10 @@
 	/*border-right: 1px solid #aaa; 
 	border-top: 1px solid #aaa; */
 	margin-top: 5px;
-	border-radius: 15px;
 	padding: 10px;
 	padding-top: -5px;
 	/*Typo*/
 	font-size: 5px;
-	color: rgba(50, 50, 50, 0.9);
 	font-family: 'Dosis', sans-serif;
 	font-weight: 200;
 }
@@ -146,8 +89,6 @@
 	border-top: 1px solid #aaa; */
 	margin-top: 5px;
 	margin-left: 10px;
-	border-radius: 15px;
-	padding: 10px;
 	padding-top: -5px;
 	/*Typo*/
 	font-size: 5px;
@@ -158,10 +99,8 @@
 
 .prototypeTeam
 {
-	border: 1px solid #aaa; 
 	margin-left: 15px;
 	margin-top: 10px;
-	border-radius: 15px;
 	padding: 10px;
 	padding-top: -5px;
 	/*Typo*/
@@ -169,47 +108,6 @@
 	color: rgba(50, 50, 50, 0.9);
 	font-family: 'Dosis', sans-serif;
 	font-weight: 200;
-}
-/*/Arrows/*/
-
-.arrowContainer {
-	display: flex; 
-	margin-left: auto; 
-	margin-right: auto; 
-	width: 850px; 
-	padding-top: 10px;
-	padding-bottom: 25px;
-}
-
-.leftArrow {
-	display: inline-block; 
-	width: 50%; 
-	padding-left: 20px; 
-	font-size: 100px;
-	font-family: 'Dosis', sans-serif;
-	font-weight: 200; 
-	margin: 0; 
-	line-height: 30px;
-}
-
-.rightArrow {
-	display: inline-block; 
-	width: 50%; 
-	text-align: right; 
-	padding-right: 20px; 
-	font-size: 100px;
-	font-family: 'Dosis', sans-serif;
-	font-weight: 200; 
-	margin: 0; 
-	line-height: 30px;
-}
-
-.centerIcon {
-	width: 60px; 
-	height: auto; 
-	margin-top: 5px; 
-	margin-left: auto; 
-	margin-right : auto;
 }
 
 .flex1 {

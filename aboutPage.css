@@ -28,16 +28,16 @@
 { 
 	margin-left: auto; 
 	margin-right: 5px;
-	border: 1px solid #ddd;	
+	/*border: 1px solid #ddd;	*/
 	width: 600px; 
-	padding: 20px 20px 20px 20px; /*top right bottom left*/
+	/*padding: 20px 20px 20px 20px; /*top right bottom left*/
 	background-color: rgba(300, 300, 300, 0.75);
-	border-radius: 15px;
-	border: 1px solid rgba(2, 196, 187, 1);
+	/*border-radius: 15px;
+	border: 1px solid rgba(2, 196, 187, 1);*/
 }
 
 .meImage {
-	border-radius: 10px; 
+	border-radius: 5px; 
 	width: 300px; 
 	height: 450px;
 	/*float: left;
@@ -49,10 +49,10 @@
 
 .smallTitle
 {
-	font-size: 25px; 
+	font-size: 22px; 
 	text-align: left; 
 	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
+	font-weight: 500;
 	color: rgba(34, 118, 109, 1)
 }
 
@@ -60,14 +60,16 @@
 { 
 	margin-left: 5px; 
 	margin-right: auto;
-	border: 1px solid #ddd;	
+	/*border: 1px solid #ddd;	*/
 	width: 300px;
 	height: auto;
 	/*height: 500px;*/
-	padding: 10px 10px 20px 10px; /*top right bottom left*/
+	/*padding: 10px 10px 20px 10px; /*top right bottom left*/
+	padding-left:20px;
+	padding-bottom: 20px;
 	background-color: rgba(300, 300, 300, 0.75);
-	border-radius: 15px;
-	border: 1px solid rgba(2, 196, 187, 1);
+	/*border-radius: 15px;*/
+	border-left: 2px solid rgba(2, 196, 187, 1);
 }
 
 .skillContainer {
