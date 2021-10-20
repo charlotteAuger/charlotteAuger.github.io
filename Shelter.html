@@ -51,13 +51,25 @@
 			</div>			
 			
 			<div class="prototypeConcept">
-				<p class="seize"></p>
+				<p class="seize">Shelter 3 is a <span class="blue">survival adventure with exploration elements</span> as the player takes control of an elephant mother trying to lead a whole elephant herd to safety.<br>
+				I joined a team of 10 people at the <span class="blue">begining of the production phase</span>. My main responsibility was to work on the various animals that would populate the environment of the game,
+				secondarily I helped reworking some other gameplay features, built the UI for the game's menus and worked on bug fixing from content lock to release. 
+				</p>
 			</div>
 
 
 			<div class="whatILearned">
-
-				
+				<p class="seize">A lot of my work being focused on the <span class="blue">behaviour and integration of animals</span>, I worked <span class="blue">closely to the animators and sound designers</span> in order to bring them to life and try to have eveyrthing come together. I worked autonomously with regular feedback to iterate on each animal.
+				</br></br></p>
+				<p class="seize"><span class="bold">Animal behaviour :</span> Most animals being there to add life around the player, they follow pretty simple behaviours. I used <span class="blue">Finite State Machines</span> to build both individual and herd behaviours for animals such as flamingos, buffalos, or herons.
+					They have very limited interaction with the elephants so I spent some time iterating and reflecting on <span class="blue">efficient solutions to have them react to the player's presence</span> without overloading the animators and sound designers.
+				</br></br> I also worked on setting up a <span class="blue">waypoint system</span> that would allow us to decide of definite paths for them to follow around the level design, as well as some form of <span class="blue">streaming system</span> to separate the in zones animals and have them pooled and active only if the player is close. 
+				</br>As functionnal as those system were it came to a cost regarding manual integration time and I learned that a better anticipation of the level building needs and more thought would have greately helped as it would have been more efficient to build a tool to help animal placement in the game's world.
+				</br></br></p>	
+				<p class="seize"><span class="bold">Menus and Localization :</span> I <span class="blue">built the game's menus</span> and took care of <span class="blue">implementing player settings</span> (including the input binding options using the third party plugin cInput), 
+					in the process I set up the UI to receive text from our localization system and made sure correct fonts are used from latin script to cyrillic and simplified chinese.
+					
+				</p>
 
 			</div>
 		</section>
