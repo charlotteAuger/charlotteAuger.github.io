@@ -234,15 +234,7 @@ h1 {
 	text-decoration: none;
 }
 
-.navLeft:hover {
-	background-color: rgba(300, 300, 300, 0.75);
-}
-
-.onPortfolio:hover {
-	background-color: rgba(300, 300, 300, 0.75);
-}
-
-.navRight:hover {
+.navright:hover {
 	background-color: rgba(300, 300, 300, 0.75);
 }
 
@@ -336,40 +328,6 @@ h1 {
 		margin-right: auto;
 	}
 	
-	.navLeft {
-		width: 150px;
-		/*Typo*/
-		font-size: 37px;
-		margin-right: 5px;
-	}
-
-	.navRight {
-		width: 150px;
-		/*Typo*/
-		font-size: 37px;
-		margin-left: 5px;
-	}
-	
-	.onMe {
-		width: 150px;
-		/*Typo*/
-		font-size: 37px;
-		margin-left: 5px;
-	}
-
-	.onPrototype {
-		width: 150px;
-		/*Typo*/
-		font-size: 37px;
-		margin-right: 5px;
-	}
-	
-	.onPortfolio {
-		width: 150px;
-		/*Typo*/
-		font-size: 37px;
-		
-	}
 	.announce
 	{
 		width : 300px;
