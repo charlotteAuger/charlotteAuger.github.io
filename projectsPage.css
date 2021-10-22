@@ -150,7 +150,7 @@ main
 	margin-right: auto; 
 	width: 1000px; 
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .yearContainer
