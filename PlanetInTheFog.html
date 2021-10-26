@@ -1,0 +1,90 @@
+﻿<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>A Planet in the Fog - Charlotte Auger</title>
+        <link rel="stylesheet" href="style.css" >
+		<link rel="stylesheet" href="prototypePage.css" >
+		<link href="https://fonts.googleapis.com/css?family=Dosis:200,400" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500" rel="stylesheet">
+    </head>
+    
+    <body>
+    	<div class="pageContainer">
+			<header  class="nameContainer">
+				<a href="index.html">
+					<div>
+						<span class="name">charlotte auger</span>
+					</div>
+	
+				</a>
+				<nav class="menu">
+				<a href="index.html">
+					<div class="navRight">Portfolio</div>
+				</a>
+				<a href="AboutMe.html">
+					<div class="navRight">About Me</div>
+				</a>
+			</nav>
+			</header>
+        
+		<main>
+		  <section class="prototypeContainer">
+			<div class="prototypeTitle" style="max-width: 400px;">
+				a planet in the fog
+			</div>
+			<div class="flex1">
+				<div class="imageContainer">
+				<iframe width="560" height="315" style="margin-top : 15px;" src="https://www.youtube.com/embed/soQz0ApgLH4" frameborder="0"></iframe>
+					<!--<img class="prototypeImage" src="images/mue_big.png" />-->
+				</div>
+				<div class="prototypeID">
+					<p style="font-size: 17px">
+						<span style="font-size: 14px;">September 2019</br> to May 2020</br>
+						school project</span> </br></br>
+						Unreal Engine (Blueprint) </br></br>
+					<!--<a href="dl/bible-mue.pdf" target="_blank" style="font-size: 20px; font-weight: 500px;">Narrative document</a>-->
+					</p>
+				</div>
+			</div>
+
+			
+			
+
+				<div class="prototypeConcept">
+					<p class="seize"> A Planet in the Fog is a <span class="blue">first person exploration</span> game centered on <span class="blue">navigating a treacherous environment</span> and understanding the ecosystem of a planet covered in fog. 
+					</br> This was my graduation project and we worked in a team of 9 people. 
+					I worked on prototyping the controller at first, then another programmer joined the project and took over controller related features, my responsibilities were to work on  <span class="blue">UI and systems</span>.
+				Secondarily my role in the team was to handle technical setup, documentation and support for source control or engine related issues.</p>
+				</div>
+
+
+			
+				<div class="whatILearned">
+					<p class="seize"><span class="bold">Pheromone system :</span> The ecosystem of the game relies heavily on pheromones carried by winds around the planet, I opted for using a grid system since it operated on a large scale and didn't need that much precision.
+					</br>Winds are represented by nodes being connected in a directional way and the grid handles the propagation and dissipation of each pheromone type along the winds. 
+						I made it possible to <span class="blue">easily create different Pheromone Emitters and Pheromone Receivers</span> which respectively emits or detects a specific kind of pheromones.
+					</br></br>As a result, I worked in <span class="blue">collaboration with our level designers to build a tool</span> that would allow them to easily visualize and create connections between the nodes to get the desired winds on the map. 
+					</p><br><br>
+					<p class="seize"><span class="bold">Map and UI :</span> One of the player's main tool is a map that allows them to <span class="blue">visualise data they gather on the area in real time</span>. 
+						Placing probes on the environment allows the player to visualise on the map the pheromones present in a radius around the probe, and the map also features <span class="blue">filters</span> to select which information to show like the winds or a specific type of pheromones.
+						I built the whole feature and handled it's <span class="blue">interaction with the pheromone system</span>.
+					</br></br>
+					The player also gathers information by scanning specimens and unlocking entries in a databes, I took care of <span class="blue">building the UI and data management</span> for that feature.
+						</p><br>
+					<!--<p class="seize"><span class="bold">AIs :</span> Goal Oriented Action Planning seems to be the most suitable technic to manage individual agents interacting in our ecosystem.
+					I am currently working on adapting a GOAP framework to our needs : first by making the functionnalities of the framework accessible for our game designers in the engine's editor, 
+					and secondly to make it compatible with our pheromone diffusion system.
+					</p>-->
+				</div>
+
+		  </section>
+
+        </main>
+		</div>	
+		<footer>
+				<div class="footerInfo">© 2019 by Charlotte AUGER</div>
+		</footer>
+    </body>
+
+</html>
